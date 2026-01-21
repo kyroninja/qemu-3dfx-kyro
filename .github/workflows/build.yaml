@@ -13,8 +13,8 @@ jobs:
    
      runs-on: windows-latest      
      env:
-      pkgver: '10.1.2'
-      patch:  '00-qemu110x-mesa-glide.patch'
+      pkgver: '10.2.0'
+      patch:  '03-qemu102x-mesa-glide.patch'
       mspkg: 'mingw-w64-x86_64'
       branch: ${{ github.ref_name }}
       
